@@ -101,7 +101,7 @@ const educationInfo = {
       subHeader: "Bachelor in Computer Science, Computation Specialization",
       duration: "September 2015 - June 2019",
       desc:
-        "Ranked top 10% in the program. Developed the final project in colaboration with the Computer Vision Center",
+        "Ranked top 10% in the program. Developed the final project in collaboration with the Computer Vision Center",
       descBullets: ["Final project: Destruction detection on satellite imagery via deep learning"]
     }
   ]
