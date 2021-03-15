@@ -1,43 +1,43 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "111c579fc2f5a060e918ce511c1a9eff",
+    "revision": "fafebb0820dae7dbd211a21c51e9df6b",
     "url": "/developerFolio/index.html"
   },
   {
-    "revision": "f5cdf993aa8ce6cbf07f",
+    "revision": "6437f4d4bd551c49f1dc",
     "url": "/developerFolio/static/css/3.2ad04f36.chunk.css"
   },
   {
-    "revision": "d459a611aa1b275c7a57",
+    "revision": "2645f69555aaf36dbcc7",
     "url": "/developerFolio/static/css/4.03c720bd.chunk.css"
   },
   {
-    "revision": "9737d8598722404a0f90",
+    "revision": "b59da512520a354e006d",
     "url": "/developerFolio/static/css/main.c2d3fc0a.chunk.css"
   },
   {
-    "revision": "ef96c473fc3ea16b54f5",
-    "url": "/developerFolio/static/js/2.f8e5cebd.chunk.js"
+    "revision": "fe4428cf431a522e0288",
+    "url": "/developerFolio/static/js/2.f6612868.chunk.js"
   },
   {
     "revision": "6e1d2efc12a1ac972ff1f942df7eb0bd",
-    "url": "/developerFolio/static/js/2.f8e5cebd.chunk.js.LICENSE.txt"
+    "url": "/developerFolio/static/js/2.f6612868.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "f5cdf993aa8ce6cbf07f",
-    "url": "/developerFolio/static/js/3.85bb32ec.chunk.js"
+    "revision": "6437f4d4bd551c49f1dc",
+    "url": "/developerFolio/static/js/3.ac881821.chunk.js"
   },
   {
-    "revision": "d459a611aa1b275c7a57",
-    "url": "/developerFolio/static/js/4.471797a7.chunk.js"
+    "revision": "2645f69555aaf36dbcc7",
+    "url": "/developerFolio/static/js/4.e7dc8ac7.chunk.js"
   },
   {
-    "revision": "9737d8598722404a0f90",
-    "url": "/developerFolio/static/js/main.2478ddf1.chunk.js"
+    "revision": "b59da512520a354e006d",
+    "url": "/developerFolio/static/js/main.dfbbe41e.chunk.js"
   },
   {
-    "revision": "140cf16e2f1e6fecdc65",
-    "url": "/developerFolio/static/js/runtime-main.47e816fd.js"
+    "revision": "fd055bdfb1535ee786a2",
+    "url": "/developerFolio/static/js/runtime-main.7e0185a3.js"
   },
   {
     "revision": "21f233e19402cc4a66866a7f31191f0d",
@@ -52,8 +52,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/developerFolio/static/media/bscLogo.0f0ccd3c.png"
   },
   {
-    "revision": "47a7a717679b640ceb1b05d38c480a61",
-    "url": "/developerFolio/static/media/codeInLogo.47a7a717.webp"
+    "revision": "bcff15f27b4a16aa4979f12295875b35",
+    "url": "/developerFolio/static/media/chickenLogo.bcff15f2.jpg"
   },
   {
     "revision": "51cf7192327488da3d2a171280680c16",
@@ -64,24 +64,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/developerFolio/static/media/developerActivity.59389695.svg"
   },
   {
-    "revision": "e79c639294c805688be731921368c8f8",
-    "url": "/developerFolio/static/media/googleAssistantLogo.e79c6392.webp"
-  },
-  {
     "revision": "52be31441c8cf8a8a16bd7a228d428bf",
     "url": "/developerFolio/static/media/manOnTable.52be3144.svg"
-  },
-  {
-    "revision": "829ad0a1deef4d7295adfecdf12df2be",
-    "url": "/developerFolio/static/media/nextuLogo.829ad0a1.webp"
-  },
-  {
-    "revision": "ee62cb58630f29a6e6201b49d4c03728",
-    "url": "/developerFolio/static/media/pwaLogo.ee62cb58.webp"
-  },
-  {
-    "revision": "25018d29d5ab115bc51c3e9a2d92f90f",
-    "url": "/developerFolio/static/media/saayaHealthLogo.25018d29.webp"
   },
   {
     "revision": "3440939881da8339d1597e8d77cdf850",
