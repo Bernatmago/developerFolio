@@ -34,7 +34,7 @@ const socialMediaLinks = {
 
 const skillsSection = {
   title: "What I do",
-  subTitle: "Arritifical Intelligence Master Graduate who wants to learn everything related to Deep Learning and Reinforcement Learning.",
+  subTitle: "Aritifical Intelligence Master Graduate who wants to learn everything related to Deep Learning and Reinforcement Learning.",
   skills: [
     emoji(
       "🤖 Develop and investigate novel Deep Learning models and techniques"
