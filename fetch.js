@@ -4,17 +4,17 @@ process = require("process");
 require("dotenv").config();
 
 const GITHUB_TOKEN = process.env.REACT_APP_GITHUB_TOKEN;
-const GITHUB_USERNAME = process.env.GITHUB_USERNAME;
+const GTHB_USR = process.env.GTHB_USR;
 
-if (GITHUB_USERNAME === undefined) {
+if (GTHB_USR === undefined) {
   throw "Github Username was found to be undefined. Please set an Environment variable.";
 }
 
-console.log(`fetching profile for ${GITHUB_USERNAME}`);
+console.log(`fetching profile for ${GTHB_USR}`);
 var data = JSON.stringify({
   query: `
 {
-  user(login:"${GITHUB_USERNAME}") { 
+  user(login:"${GTHB_USR}") { 
     name
     bio
     isHireable
