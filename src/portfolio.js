@@ -12,7 +12,7 @@ const greeting = {
   username: "Bernat Martínez",
   title: "Welcome, I'm Bernat",
   subTitle: emoji(
-    "A passionate Artificial Inteligence engineer starting on the world of research."
+    "A passionate Artificial Inteligence engineer & Back-End developer."
   ),
   resumeLink:
     "https://drive.google.com/file/d/12Jrdp9UQHkcNEFuzzcu4Kzee4YKoQgHp/view?usp=sharing",
