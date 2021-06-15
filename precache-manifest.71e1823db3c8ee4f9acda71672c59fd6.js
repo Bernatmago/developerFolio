@@ -1,43 +1,43 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "e86e9b0632007b49fc07e0d854ec420e",
+    "revision": "b8a5e07747abd51a9b0e8692c9d9358c",
     "url": "/developerFolio/index.html"
   },
   {
-    "revision": "6437f4d4bd551c49f1dc",
+    "revision": "bf75285b917cab033045",
     "url": "/developerFolio/static/css/3.2ad04f36.chunk.css"
   },
   {
-    "revision": "2645f69555aaf36dbcc7",
+    "revision": "4cfa156ac18d1402a7af",
     "url": "/developerFolio/static/css/4.03c720bd.chunk.css"
   },
   {
-    "revision": "5ab4583b4e85c26a33ae",
-    "url": "/developerFolio/static/css/main.c2d3fc0a.chunk.css"
+    "revision": "c71ab8e5ab42362d1936",
+    "url": "/developerFolio/static/css/main.007aca0f.chunk.css"
   },
   {
-    "revision": "fe4428cf431a522e0288",
-    "url": "/developerFolio/static/js/2.f6612868.chunk.js"
+    "revision": "b624e82fda057d0b9cab",
+    "url": "/developerFolio/static/js/2.1e8c59fc.chunk.js"
   },
   {
     "revision": "6e1d2efc12a1ac972ff1f942df7eb0bd",
-    "url": "/developerFolio/static/js/2.f6612868.chunk.js.LICENSE.txt"
+    "url": "/developerFolio/static/js/2.1e8c59fc.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "6437f4d4bd551c49f1dc",
-    "url": "/developerFolio/static/js/3.ac881821.chunk.js"
+    "revision": "bf75285b917cab033045",
+    "url": "/developerFolio/static/js/3.e2a4534d.chunk.js"
   },
   {
-    "revision": "2645f69555aaf36dbcc7",
-    "url": "/developerFolio/static/js/4.e7dc8ac7.chunk.js"
+    "revision": "4cfa156ac18d1402a7af",
+    "url": "/developerFolio/static/js/4.5e0d2b74.chunk.js"
   },
   {
-    "revision": "5ab4583b4e85c26a33ae",
-    "url": "/developerFolio/static/js/main.f3957488.chunk.js"
+    "revision": "c71ab8e5ab42362d1936",
+    "url": "/developerFolio/static/js/main.d08d8a6a.chunk.js"
   },
   {
-    "revision": "fd055bdfb1535ee786a2",
-    "url": "/developerFolio/static/js/runtime-main.7e0185a3.js"
+    "revision": "e15a8aee5dd9b3a4fb41",
+    "url": "/developerFolio/static/js/runtime-main.0d77b8f0.js"
   },
   {
     "revision": "21f233e19402cc4a66866a7f31191f0d",
@@ -70,6 +70,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "3440939881da8339d1597e8d77cdf850",
     "url": "/developerFolio/static/media/skill.34409398.svg"
+  },
+  {
+    "revision": "762622943315f3a3feb6c20090a1169f",
+    "url": "/developerFolio/static/media/smLogo.76262294.jpg"
   },
   {
     "revision": "39eff4a91b01e00a32cb78f3797eec88",
