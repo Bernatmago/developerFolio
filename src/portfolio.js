@@ -37,13 +37,17 @@ const skillsSection = {
   subTitle: "Aritifical Intelligence Master Graduate who wants to learn everything related to Deep Learning and Reinforcement Learning.",
   skills: [
     emoji(
-      "🤖 Develop and investigate novel Deep Learning models and techniques"
+      "🤖 Develop and investigate Deep Learning models and techniques"
     ),
     emoji(
-      "🔎 Research and Learn Reinforcement Learning related topics"),
+      "🔎 Learn Reinforcement Learning related topics"),
     emoji(
       "💻 Develop back-end applications"
+    ),
+    emoji(
+      "⚗️ Data science"
     )
+
   ],
 
   /* Make Sure to include correct Font Awesome Classname to view your icon
@@ -133,6 +137,18 @@ const techStack = {
 const workExperiences = {
   display: true, //Set it to true to show workExperiences Section
   experience: [
+    {
+      role: "Data Scientist",
+      company: "Smadex",
+      companylogo: require("./assets/images/smLogo.jpg"),
+      date: "April 2021 – Present",
+      desc:
+        "Machine Learning & Software Development",
+      descBullets: [
+        "Software Development using Scala Python and NodeJs",
+        "Machine learning for marketing related algorithms",
+      ]
+    },
     {
       role: "Back-End Intern",
       company: "WorldLine Global (Atos)",
@@ -349,7 +365,7 @@ const contactInfo = {
 
 const twitterDetails = {
   userName: "Bernatmago", //Replace "twitter" with your twitter username without @
-  display: true // Set true to display this section, defaults to false
+  display: false // Set true to display this section, defaults to false
 };
 
 export {
