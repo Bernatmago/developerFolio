@@ -17,7 +17,7 @@ const greeting = {
     "A passionate Software Developer 💻 focused in Artificial Inteligence 🤖 & Videogame Development 🎮."
   ),
   resumeLink:
-    "https://drive.google.com/file/d/1D1_NkEW3RTmKEAjSkrLtgYvsK7bwc5CC/view?usp=sharing",
+    "https://drive.google.com/file/d/1rwUs64CWi0Pharo2M3qWsGQ2vDa3qZTb/view?usp=sharing",
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
@@ -55,7 +55,7 @@ https://fontawesome.com/icons?d=gallery */
     },
     {
       skillName: "C++",
-      fontAwesomeClassname: "fab fa-java" // Fontawesome has no icon look somewhere else
+      fontAwesomeClassname: "fas fa-copyright" // Fontawesome has no icon look somewhere else
     },
     {
       skillName: "nodejs",
@@ -144,14 +144,17 @@ const workExperiences = {
   display: true, //Set it to true to show workExperiences Section
   experience: [
     {
-      role: "Data Scientist",
+      role: "Developer, Data Science Team",
       company: "Smadex",
       companylogo: require("./assets/images/smLogo.jpg"),
       date: "April 2021 – Present",
       desc: "Machine Learning & Software Development",
       descBullets: [
-        "Software Development using Scala Python and NodeJs",
-        "Machine learning for marketing related algorithms"
+        "Refactored multiple Python systems to improve its maintainability and functionalities.",
+        "Developed quality of life features for the company Machine Learning systems using Scala and AWS.",
+        "Dockerized environments and their build system from scratch.",
+        "Main developer and maintainer of a key app exploration software.",
+        "Helped in hiring interviews and training new joiners."
       ]
     },
     {
@@ -161,9 +164,8 @@ const workExperiences = {
       date: "April 2019 – August 2019",
       desc: "Back-End Development on an Agile environment for an IoT project.",
       descBullets: [
-        "Java Back-End programming using Spring Boot.",
-        "Unit test development using Java for an user management system.",
-        "Front-End development using Angular for an internal dashboard."
+        "Participated in developing an IoT project using Java (Spring Boot). Also helped in defining and developing the test suite.",
+        "Performed Front-End Development using Angular for an internal dashboard related to the IoT platform."
       ]
     },
     {
@@ -173,10 +175,8 @@ const workExperiences = {
       date: "October 2019 – March 2019",
       desc: "Database management and mantienance for an immportant client in the banking sector.",
       descBullets: [
-        "PL/SQL programming.",
-        "Data processing using ETL tools (Power Center) for a big insurance data warehouse.",
-        "Data visualization and reporting using Power BI and Qlik Sense.",
-        "Development of an automatization process using PowerShell."
+        "Managed and mantained databases using PL/SQL for SegurCaixa.",
+        "Developed data processing pipelines using ETL tools for a big insurance data warehouse."
       ]
     },
     {
@@ -186,9 +186,8 @@ const workExperiences = {
       date: "June 2018 – September 2018",
       desc: "Back-End Development on a BSC spin-off.",
       descBullets: [
-        "Development of a REST API related to aerial trafic and ash cloud simulations using NodeJS (Express).",
-        "Development of a custom unit testing suite using Python.",
-        "Database management using MongoDB (Mongoose)"
+        "Developed a REST API related to ash cloud simulations using NodeJS and data management using Express & Mongoose.",
+        "Developed a custom unit testing suite using Python."
       ]
     }
   ]
