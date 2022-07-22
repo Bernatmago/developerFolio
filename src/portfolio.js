@@ -39,7 +39,7 @@ const socialMediaLinks = {
 const skillsSection = {
   title: "What I do",
   subTitle:
-    "I work as Lead Programmer in Akita Interactive which is a studio created for my master final project. I also work as a software developer at an Adtech company called Smadex. On my free time I learn C++ and game development. Some of the tech and activities im familar with:",
+    "I work as Lead Programmer in Akita Interactive which is a studio created by the entire class as the master final project. I also work as a software developer at an Adtech company called Smadex. On my free time I learn C++ and game development. Some of the tech and activities im familar with:",
   skills: [
     emoji(" 🎮 Engine & Gameplay Programming"),
     emoji("💻 Software Development"),
@@ -152,15 +152,16 @@ const workExperiences = {
   experience: [
     {
       role: "Lead Gameplay Programmer",
-      company: "Akita Interactive",
+      company: "Akita Interactive (Master Project)",
       companylogo: require("./assets/images/akitaLogo.png"),
       date: "April 2021 – Present",
       desc: "Engine & Gameplay Programming",
       descBullets: [
-        "Contributed in the core engine used as foundation for the final project.",
-        "Developed forward batch rendering pipeline with PBR ilumination and exponential fog.",
-        "Worked on core gameplay systems like colision, movement & combat.",
-        "Extended the engine integrating navmesh with dynamic obstacles, assets system and UI module."
+        "Contributed in the core engine used as the foundation for the final project.",
+        "Developed forward batch rendering pipeline with PBR illumination and exponential fog.",
+        "Worked on core gameplay systems like collision, movement & combat.",
+        "Extended the engine integrating navmesh with dynamic obstacles, asset system and UI module.",
+        "Worked with the team to set development goals and achieve them",
       ]
     },
     {
