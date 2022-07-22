@@ -14,10 +14,11 @@ const greeting = {
   username: "Bernat Martínez",
   title: "Welcome, I'm Bernat",
   subTitle: emoji(
-    "A passionate Software Developer 💻 focused in Artificial Inteligence 🤖 & Videogame Development 🎮."
+    "A passionate Software Developer that loves 💻 Videogame Development 🎮 & Artificial Inteligence 🤖."
   ),
   resumeLink:
     "https://drive.google.com/file/d/1rwUs64CWi0Pharo2M3qWsGQ2vDa3qZTb/view?usp=sharing",
+  portfolioLink: "https://twitter.com/Bolicubo", 
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
@@ -38,11 +39,11 @@ const socialMediaLinks = {
 const skillsSection = {
   title: "What I do",
   subTitle:
-    "Aritifical Intelligence master graduate & Videogame Development student that wants to enter the videogame industry.",
+    "I work as Lead Programmer in Akita Interactive which is a studio created for my master final project. I also work as a software developer at an Adtech company called Smadex. On my free time I learn C++ and game development. Some of the tech and activities im familar with:",
   skills: [
-    emoji("🤖 Deep Learning & Machine Learning"),
+    emoji(" 🎮 Engine & Gameplay Programming"),
     emoji("💻 Software Development"),
-    emoji("⚗️ Data science")
+    emoji("🤖 Deep Learning & Machine Learning"),
   ],
 
   /* Make Sure to include correct Font Awesome Classname to view your icon
@@ -50,16 +51,16 @@ https://fontawesome.com/icons?d=gallery */
 
   softwareSkills: [
     {
+      skillName: "C++",
+      fontAwesomeClassname: "fas fa-copyright" // Fontawesome has no icon look somewhere else
+    },    
+    {
       skillName: "python",
       fontAwesomeClassname: "fab fa-python"
     },
     {
-      skillName: "C++",
-      fontAwesomeClassname: "fas fa-copyright" // Fontawesome has no icon look somewhere else
-    },
-    {
-      skillName: "nodejs",
-      fontAwesomeClassname: "fab fa-node"
+      skillName: "git",
+      fontAwesomeClassname: "fab fa-git-alt"
     },
     {
       skillName: "databases",
@@ -70,13 +71,13 @@ https://fontawesome.com/icons?d=gallery */
       fontAwesomeClassname: "fab fa-docker"
     },
     {
-      skillName: "git",
-      fontAwesomeClassname: "fab fa-git-alt"
-    },
-    {
       skillName: "aws",
       fontAwesomeClassname: "fab fa-aws"
-    }
+    },
+    {
+      skillName: "nodejs",
+      fontAwesomeClassname: "fab fa-node"
+    },
   ],
   display: true // Set false to hide this section, defaults to true
 };
@@ -87,12 +88,14 @@ const educationInfo = {
   display: true, // Set false to hide this section, defaults to true
   schools: [
     {
-      schoolName: "Universitat Politècnica de Catalunya",
-      logo: require("./assets/images/upcLogo.png"),
+      schoolName: "UPC School",
+      logo: require("./assets/images/upcShoolLogo.png"),
       subHeader: "Master in Advanced Programming For AAA Videogames",
       duration: "October 2021 - Present",
       desc: "Learning C++ videogame development from scratch",
-      descBullets: []
+      descBullets: [
+        "Final Project: Developing Hachiko Engine and building Érimos videogame using it."
+      ]
     },
     {
       schoolName: "Universitat Politècnica de Catalunya",
@@ -106,7 +109,7 @@ const educationInfo = {
     },
     {
       schoolName: "Universitat Autònoma de Barcelona",
-      logo: require("./assets/images/uabLogo.png"),
+      logo: require("./assets/images/uabLogo.jpg"),
       subHeader: "Bachelor in Computer Science, Computation Specialization",
       duration: "September 2015 - June 2019",
       desc: "Ranked top 10% in the program. Developed the final project in collaboration with the Computer Vision Center",
@@ -123,17 +126,21 @@ const techStack = {
   viewSkillBars: true, //Set it to true to show Proficiency Section
   experience: [
     {
-      Stack: "Artificial Intelligence", //Insert stack or technology you have experience in
-      progressPercentage: "90%" //Insert relative proficiency in percentage
-    },
-    {
-      Stack: "Software Development",
+      Stack: "Engine Programming",
       progressPercentage: "80%"
     },
     {
-      Stack: "Data Science",
-      progressPercentage: "60%"
-    }
+      Stack: "Gameplay Programming",
+      progressPercentage: "80%"
+    },
+    {
+      Stack: "Software Development",
+      progressPercentage: "90%"
+    },
+    {
+      Stack: "Artificial Intelligence", //Insert stack or technology you have experience in
+      progressPercentage: "80%" //Insert relative proficiency in percentage
+    },
   ],
   displayCodersrank: false // Set true to display codersrank badges section need to changes your username in src/containers/skillProgress/skillProgress.js:17:62, defaults to false
 };
@@ -143,6 +150,19 @@ const techStack = {
 const workExperiences = {
   display: true, //Set it to true to show workExperiences Section
   experience: [
+    {
+      role: "Lead Gameplay Programmer",
+      company: "Akita Interactive",
+      companylogo: require("./assets/images/akitaLogo.png"),
+      date: "April 2021 – Present",
+      desc: "Engine & Gameplay Programming",
+      descBullets: [
+        "Contributed in the core engine used as foundation for the final project.",
+        "Developed forward batch rendering pipeline with PBR ilumination and exponential fog.",
+        "Worked on core gameplay systems like colision, movement & combat.",
+        "Extended the engine integrating navmesh with dynamic obstacles, assets system and UI module."
+      ]
+    },
     {
       role: "Developer, Data Science Team",
       company: "Smadex",
@@ -189,7 +209,7 @@ const workExperiences = {
         "Developed a REST API related to ash cloud simulations using NodeJS and data management using Express & Mongoose.",
         "Developed a custom unit testing suite using Python."
       ]
-    }
+    },
   ]
 };
 
