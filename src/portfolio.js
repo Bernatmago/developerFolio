@@ -17,7 +17,7 @@ const greeting = {
     "A passionate Software Developer that loves 💻 Videogame Development 🎮 & Artificial Inteligence 🤖."
   ),
   resumeLink:
-    "https://drive.google.com/file/d/1rwUs64CWi0Pharo2M3qWsGQ2vDa3qZTb/view?usp=sharing",
+    "https://drive.google.com/file/d/12ERFzLLMWH7D7qEhznlrUTPghXwgSilj/view?usp=sharing",
   portfolioLink: "https://twitter.com/Bolicubo",
   displayGreeting: true // Set false to hide this section, defaults to true
 };
@@ -152,10 +152,10 @@ const workExperiences = {
   experience: [
     {
       role: "Lead Gameplay Programmer",
-      company: "Akita Interactive (Master Project)",
+      company: "Akita Interactive",
       companylogo: require("./assets/images/akitaLogo.png"),
       date: "April 2021 – Present",
-      desc: "Engine & Gameplay Programming",
+      desc: "(Master Project) Engine & Gameplay Programming",
       descBullets: [
         "Contributed in the core engine used as the foundation for the final project.",
         "Developed forward batch rendering pipeline with PBR illumination and exponential fog.",
