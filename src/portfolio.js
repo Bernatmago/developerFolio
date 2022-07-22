@@ -18,7 +18,7 @@ const greeting = {
   ),
   resumeLink:
     "https://drive.google.com/file/d/1rwUs64CWi0Pharo2M3qWsGQ2vDa3qZTb/view?usp=sharing",
-  portfolioLink: "https://twitter.com/Bolicubo", 
+  portfolioLink: "https://twitter.com/Bolicubo",
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
@@ -43,7 +43,7 @@ const skillsSection = {
   skills: [
     emoji(" 🎮 Engine & Gameplay Programming"),
     emoji("💻 Software Development"),
-    emoji("🤖 Deep Learning & Machine Learning"),
+    emoji("🤖 Deep Learning & Machine Learning")
   ],
 
   /* Make Sure to include correct Font Awesome Classname to view your icon
@@ -53,7 +53,7 @@ https://fontawesome.com/icons?d=gallery */
     {
       skillName: "C++",
       fontAwesomeClassname: "fas fa-copyright" // Fontawesome has no icon look somewhere else
-    },    
+    },
     {
       skillName: "python",
       fontAwesomeClassname: "fab fa-python"
@@ -77,7 +77,7 @@ https://fontawesome.com/icons?d=gallery */
     {
       skillName: "nodejs",
       fontAwesomeClassname: "fab fa-node"
-    },
+    }
   ],
   display: true // Set false to hide this section, defaults to true
 };
@@ -140,7 +140,7 @@ const techStack = {
     {
       Stack: "Artificial Intelligence", //Insert stack or technology you have experience in
       progressPercentage: "80%" //Insert relative proficiency in percentage
-    },
+    }
   ],
   displayCodersrank: false // Set true to display codersrank badges section need to changes your username in src/containers/skillProgress/skillProgress.js:17:62, defaults to false
 };
@@ -209,7 +209,7 @@ const workExperiences = {
         "Developed a REST API related to ash cloud simulations using NodeJS and data management using Express & Mongoose.",
         "Developed a custom unit testing suite using Python."
       ]
-    },
+    }
   ]
 };
 
