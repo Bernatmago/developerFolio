@@ -41,7 +41,7 @@ const skillsSection = {
   subTitle:
     "I work as Lead Programmer in Akita Interactive which is a studio created by the entire class as the master final project. I also work as a software developer at an Adtech company called Smadex. On my free time I learn C++ and game development. Some of the tech and activities im familar with:",
   skills: [
-    emoji(" 🎮 Engine & Gameplay Programming"),
+    emoji("🎮 Engine & Gameplay Programming"),
     emoji("💻 Software Development"),
     emoji("🤖 Deep Learning & Machine Learning")
   ],
@@ -67,6 +67,10 @@ https://fontawesome.com/icons?d=gallery */
       fontAwesomeClassname: "fas fa-database"
     },
     {
+      skillName: "Unity",
+      fontAwesomeClassname: "fab fa-unity"
+    },
+    {
       skillName: "docker",
       fontAwesomeClassname: "fab fa-docker"
     },
@@ -74,10 +78,7 @@ https://fontawesome.com/icons?d=gallery */
       skillName: "aws",
       fontAwesomeClassname: "fab fa-aws"
     },
-    {
-      skillName: "nodejs",
-      fontAwesomeClassname: "fab fa-node"
-    }
+    
   ],
   display: true // Set false to hide this section, defaults to true
 };
@@ -154,7 +155,7 @@ const workExperiences = {
       role: "Lead Gameplay Programmer",
       company: "Akita Interactive",
       companylogo: require("./assets/images/akitaLogo.png"),
-      date: "April 2021 – Present",
+      date: "February 2022 – Present",
       desc: "(Master Project) Engine & Gameplay Programming",
       descBullets: [
         "Contributed in the core engine used as the foundation for the final project.",
