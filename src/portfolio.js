@@ -28,8 +28,8 @@ const socialMediaLinks = {
   github: "https://github.com/Bernatmago",
   linkedin: "https://www.linkedin.com/in/bernatmago/",
   gmail: "bernatmago@gmail.com",
-  stackoverflow:
-    "https://stackoverflow.com/users/10137998/bernat-mart%c3%adnez",
+  stackoverflow: "https://stackoverflow.com/users/10137998/bernat-mart%c3%adnez",
+  itchio:"https://bernatmago.itch.io/",
   // Instagram and Twitter are also supported in the links!
   display: true // Set true to display this section, defaults to false
 };

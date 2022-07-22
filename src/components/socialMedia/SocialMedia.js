@@ -127,6 +127,18 @@ export default function socialMedia() {
           <span></span>
         </a>
       ) : null}
+
+      {socialMediaLinks.itchio ? (
+        <a
+          href={socialMediaLinks.itchio}
+          className="icon-button itch-io"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <i className="fab fa-itch-io"></i>
+          <span></span>
+        </a>
+      ) : null}
     </div>
   );
 }
