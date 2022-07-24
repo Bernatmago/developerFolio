@@ -18,7 +18,7 @@ const greeting = {
   ),
   resumeLink:
     "https://drive.google.com/file/d/12ERFzLLMWH7D7qEhznlrUTPghXwgSilj/view?usp=sharing",
-  portfolioLink: "https://twitter.com/Bolicubo",
+  portfolioLink: "https://drive.google.com/file/d/1lACcpK_-KWKH2fkkaiiE-U4mWJ1IIeyI/view?usp=sharing",
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
