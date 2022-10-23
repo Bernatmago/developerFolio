@@ -17,8 +17,8 @@ const greeting = {
     "A passionate Software Developer that loves 💻 Videogame Development 🎮 & Artificial Inteligence 🤖."
   ),
   resumeLink:
-    "https://drive.google.com/file/d/12ERFzLLMWH7D7qEhznlrUTPghXwgSilj/view?usp=sharing",
-  portfolioLink: "https://drive.google.com/file/d/1lACcpK_-KWKH2fkkaiiE-U4mWJ1IIeyI/view?usp=sharing",
+    "https://drive.google.com/file/d/1HxCTZLjbmVdenYSP1MOsYWdoaNTtrVzD/view?usp=sharing",
+  portfolioLink: "https://bit.ly/3MR7zpX",
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
